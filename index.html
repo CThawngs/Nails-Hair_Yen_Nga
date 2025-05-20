@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nails - Hair Yến Nga</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link JavaScript -->
+    <script src="script.js" type="text/javascript"></script>
+    <!-- Link FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Icon -->
+    <link rel="icon" type="image/x-icon" href="Assets/Images/Logo.png">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="Assets/Images/Logo.png" alt="logo"></a>
+        </div>
+
+        <div class="menu-desktop">
+            <ul class="menu">
+                <li><a href="#Introduction">Giới thiệu</a></li>
+                <li><a href="#Service_1">Service 1</a></li>
+                <li><a href="#Service_2">Service 2</a></li>
+                <li><a href="#Location">Địa điểm</a></li>
+                <li><a href="#Contact">Liên hệ</a></li>
+            </ul>
+        </div>
+        
+        <div class="menu-mobile">
+            <i class="fa-solid fa-bars btn-bars"></i>
+            <ul class="menu">
+                <li><a href="#Introduction">Giới thiệu</a></li>
+                <li><a href="#Service_1">Service 1</a></li>
+                <li><a href="#Service_2">Service 2</a></li>
+                <li><a href="#Location">Địa điểm</a></li>
+                <li><a href="#Contact" id="delete-border">Liên hệ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="space"></div>
+
+    <div class="container">
+
+        <div class="slider">
+            <div class="list">
+                <div class="item-slider">
+                    <img src="Assets/Images/Banner_1.png" alt="Banner_1">
+                    <div class="shadow-overlay"></div>
+                </div>
+                <div class="item-slider">
+                    <img src="Assets/Images/Banner_2.png" alt="Banner_2">
+                    <div class="shadow-overlay"></div>
+                </div>
+                <div class="item-slider">
+                    <img src="Assets/Images/Banner_3.png" alt="Banner_3">
+                    <div class="shadow-overlay"></div>
+                </div>
+                <div class="item-slider">
+                    <img src="Assets/Images/Banner_2.png" alt="Banner_4">
+                    <div class="shadow-overlay"></div>
+                </div>
+                <div class="item-slider">
+                    <img src="Assets/Images/Banner_1.png" alt="Banner_5">
+                    <div class="shadow-overlay"></div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="introduction" id="Introduction">
+            <h2>Giới Thiệu</h2>
+
+            <div class="introduction-container">
+                <div class="carousel-container">
+                    <i class="fa-solid Left fa-arrow-left"></i>
+                    <div class="carousel">
+                        <img src="Assets/Images/nail_1.png" alt="Làm móng" draggable="false">
+                        <img src="Assets/Images/hair_1.png" alt="Gội đầu" draggable="false">
+                        <img src="Assets/Images/nail_2.png" alt="Làm móng" draggable="false">
+                        <img src="Assets/Images/hair_2.png" alt="Gội đầu" draggable="false">
+                        <img src="Assets/Images/hair_3.png" alt="Gội đầu đắp mặt nạ" draggable="false">
+                    </div>
+                    <i class="fa-solid Right fa-arrow-right"></i>
+                </div>
+
+                <div class="introductory-description">
+                    <h3>Nails đỉnh nóc, tóc kịch trần, tự hào bay phấp phới!</h3>
+                    <p>Tiệm Nails - Hair Yến Nga của chúng tôi tự hào là địa chỉ làm đẹp và thư giãn đáng tin cậy với 18 năm kinh nghiệm phục vụ khách hàng.</p>
+                    <p>Chuyên cung cấp dịch vụ làm nails chuyên nghiệp, tạo kiểu tóc đa dạng cùng các gói chăm sóc sắc đẹp đa dạng. Ngoài ra, Nails - Hair Yến Nga còn tập trung vào khách hàng nữ giới với chất lượng dịch vụ vượt trội. Dù ưu tiên phục vụ nữ giới, nhưng Nails - Hair Yến Nga vẫn hỗ trợ nam giới ở mức độ cơ bản.</p>
+                    <p>Nails - Hair Yến Nga cam kết giá cả cạnh tranh theo thị trường, đi kèm chất lượng đảm bảo, giúp khách hàng an tâm trải nghiệm không lo về chi phí. Đến với Nails - Hair Yến Nga, bạn sẽ tận hưởng không gian thoải mái và đội ngũ giàu kinh nghiệm (lành mạnh), mang lại vẻ đẹp hoàn hảo từ những chi tiết nhỏ nhất!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="Service_1">
+            <h2>Service 1</h2>
+
+            <div class="service-container">
+                <div class="service-left">
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Mani or Pedi Nail Careasdfadsfadsf ads fasdffas dfa sdfa sdf asd fa sdf</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p>Foot Soak, Cut, Shape & Cuticle Care + Callus Removal + Soothing Massage + Moisturing Lotion + Base Coat + Nail Polish & Top Coat / Buffing + Cuticle Oil</p>
+                        <p>(+ 350,000vnd with gel application)</p>
+                    </div>
+                </div>
+
+                <div class="service-right">
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p>Foot Soak, Cut, Shape & Cuticle Care + Callus Removal + Soothing Massage + Moisturing Lotion + Base Coat + Nail Polish & Top Coat / Buffing + Cuticle Oil</p>
+                        <p>(+ 350,000vnd with gel application)</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Làm Móng Nam + Rửa Mặt</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="Service_2">
+            <h2>Service 2</h2>
+
+            <div class="service-container">
+                <div class="service-left">
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Mani or Pedi Nail Careasdfadsfadsf ads fasdffas dfa sdfa sdf asd fa sdf</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+                </div>
+
+                <div class="service-right">
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p>Foot Soak, Cut, Shape & Cuticle Care + Callus Removal + Soothing Massage + Moisturing Lotion + Base Coat + Nail Polish & Top Coat / Buffing + Cuticle Oil</p>
+                        <p>(+ 350,000vnd with gel application)</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Làm Móng Nam + Rửa Mặt</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+
+                    <div class="item-container">
+                        <div class="item">
+                            <h3>Classic Manicure</h3>
+                            <h3>120,000 VND</h3>
+                        </div>
+                        <p class="item-description">Cut, Shape, Cuticle Care + Base Coat + Nail Polish & Top Coat or Buffing + Cuticle Oil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="location" id="Location">
+            <h2>Địa Điểm</h2>
+
+            <div class="location-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.3953514373593!2d106.66529691748399!3d10.792753368053022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175292d687fa1a9%3A0xeac84d7cab2ac187!2zMjA4IELDuWkgVGjhu4sgWHXDom4sIFBoxrDhu51uZyAzLCBUw6JuIELDrG5oLCBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1747633443177!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="contact" id="Contact">
+            <h2>Liên Hệ</h2>
+
+            <div class="contact-container">
+                <div class="content-container">
+                    <!-- Time operation -->
+                    <div class="content">
+                        <i class="fa-solid fa-clock"></i>
+                        <h3>Thời gian hoạt động: 8 AM - 8 PM.</h3>
+                    </div>
+                    <!-- Address -->
+                    <div class="content">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Địa chỉ: <a href="#Location">208 Bùi Thị Xuân, Phường 3, Quận Tân Bình, TP.Hồ Chí Minh.</a></h3>
+                    </div>
+                    <!-- Hotline (Phone) -->
+                    <div class="content">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3>Số Hotline: <a href="#">(+84) 43 345234 25345 23.</a></h3>
+                    </div>
+                    <!-- Email -->
+                    <div class="content">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Email: nailshairyennga@gmail.com</h3>
+                    </div>
+                    <!-- Instagram -->
+                    <div class="content">
+                        <i class="fa-brands fa-instagram"></i>
+                        <h3>Instagram: <a href="https://www.instagram.com/nails_hair_yen_nga/">@nails_hair_yen_nga</a></h3>
+                    </div>
+                    <!-- TikTok -->
+                    <div class="content">
+                        <i class="fa-brands fa-tiktok"></i>
+                        <h3>TikTok: <a href="https://www.tiktok.com/@nails.hair.yn.nga?is_from_webapp=1&sender_device=pc">Nails - Hair Yến Nga</a></h3>
+                    </div>
+                    <!-- Fanpage (Facebook) -->
+                     <div class="content">
+                        <i class="fa-brands fa-facebook"></i>
+                        <h3>Fanpage: <a href="https://www.facebook.com/LamDep.HairNail.YenNga/?locale=vi_VN">Nails - Hair Yến Nga</a></h3>
+                     </div>
+                </div>
+                <div class="logo">
+                    <img src="Assets/Images/Logo.png" alt="Logo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Copyright © Nails - Hair Yến Nga
+    </footer>
+</body>
+</html>
