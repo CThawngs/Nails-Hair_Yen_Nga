@@ -543,6 +543,10 @@ footer {
         padding-bottom: 80px;
     }
 
+    h2 {
+        width: 60%;
+    }
+
     /* Location Section */
     .location .location-container iframe {
         min-height: 750px;
@@ -631,7 +635,8 @@ footer {
 
     /* Introduction Section */
     h2 {
-        width: 60%;
+        width: 80%;
+        font-size: 2.5em;
     }
 
     .introduction .introduction-container {
